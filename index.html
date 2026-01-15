@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio-GoMyCode</title>
   </head>
   <body>
     <nav>
       <h1 class="logo">.Portfolio</h1>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work space</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#workspace">Work space</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -22,28 +29,37 @@
         <!-- Left div -->
         <div class="left">
           <div class="top">
-            <span>----Hello</span>
+            <span class="greeting">----Hello</span>
             <h1>I'm <span class="name">Raymond Brownshen</span></h1>
             <p>
               A Full Stack web developper using of technologies JavaScript,
               HTML, CSS, PHP, React, Nodejs, Expressjs, MySQL.
             </p>
-            <p>
+            <span class="p2">
               Of course, there's so much more to me thant juste a few fancy
-              titles.
-            </p>
+              titles. Scroll down and get to know me.
+            </span>
           </div>
           <div class="bottom">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Linkedin</a>
+            <a href="https://www.facebook.com"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://www.x.com"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
           </div>
         </div>
         <!-- Right div -->
         <div class="right">
           <img
-            height="500"
-            width="400"
+            height="400"
+            width="300"
             src="./assests/images/picture.jpg"
             alt="Portfolio-picture"
           />
@@ -54,7 +70,9 @@
 
       <section id="workspace">
         <!-- tour of the work space -->
-        <h3>Our work space in 8 minutes</h3>
+        <h3>Work space</h3>
+
+        <video controls src="./assests/video/coding.mp4"></video>
       </section>
     </main>
   </body>
