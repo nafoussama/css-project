@@ -53,8 +53,17 @@ a:visited {
   width: 600px;
 }
 .greeting {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 600;
+}
+.greeting::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background: black;
+  margin-right: 6px;
+  vertical-align: middle;
 }
 
 .name {
