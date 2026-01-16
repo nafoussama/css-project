@@ -64,6 +64,15 @@ a:visited {
   background: black;
   margin-right: 6px;
   vertical-align: middle;
+  animation: grow 0.3s ease;
+}
+@keyframes grow {
+  from {
+    height: 0;
+  }
+  to {
+    height: 5px;
+  }
 }
 
 .name {

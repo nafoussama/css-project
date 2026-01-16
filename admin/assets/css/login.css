@@ -1,69 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Roboto";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    position: relative;
+body {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
 }
 
-form{
-    width: 400px;
-    padding: 22px;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 1px 2px 13px rgb(0, 0, 0,0.2);
+form {
+  width: 400px;
+  padding: 22px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 2px 13px rgb(0, 0, 0, 0.2);
 }
-form h3{
-    font-size: 30px;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
-
-.form-control{
-    width: 80%;
-    margin-bottom: 15px;
-    padding: 8px 12px;
+form h3 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
 }
 
-.form-control:focus{
-    outline: none;
+.form-control {
+  width: 80%;
+  margin-bottom: 15px;
+  padding: 8px 12px;
 }
 
-.btn{
-    font-weight: 500;
-    width: 80%;
-    padding: 10px 20px;
-    margin-bottom: 15px;
-    transition: .3s ease-in;
-    border: none;
-    border-radius: 5px;
-    background-color: #4988C4;
-    color: white;
+.form-control:focus {
+  outline: none;
 }
 
-.btn:hover{
-    background-color: #5a9cd9;
-    color: white;
+.btn {
+  font-weight: 500;
+  width: 80%;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  transition: 0.3s ease-in;
+  border: none;
+  border-radius: 5px;
+  background-color: #4988c4;
+  color: white;
+  letter-spacing: 2px;
 }
 
-.more-utils p{
-    font-size: 13px;
-    margin: 10px 0;
+.btn:hover {
+  background-color: #5a9cd9;
+  color: white;
 }
 
-footer{
-    position: absolute;
-    bottom: 20px;
+.more-utils p {
+  font-size: 13px;
+  margin: 10px 0;
 }
 
+footer {
+  position: absolute;
+  bottom: 20px;
+}
+
+.mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4988c4;
+}
+
+.mode:hover {
+  background-color: #5a9cd9;
+}
